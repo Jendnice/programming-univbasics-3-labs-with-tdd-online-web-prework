@@ -2,7 +2,7 @@
 # Code your solution in calculator.rb
 
 
-first_number = 0 
+"first_number" = 0 
 
 describe "./calculator.rb" do
 
