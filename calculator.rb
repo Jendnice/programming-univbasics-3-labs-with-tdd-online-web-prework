@@ -1,8 +1,6 @@
 # Add your variables here
 # Code your solution in calculator.rb
 
-first_number = 1 
-
 describe "./calculator.rb" do
 
   it "contains a local variable called first_number that is assigned to a number" do
@@ -10,5 +8,7 @@ describe "./calculator.rb" do
 
     expect(first_number).to be_an(Integer).or be_a(Float)
   end
+
+first_number = 1 
 
 end
