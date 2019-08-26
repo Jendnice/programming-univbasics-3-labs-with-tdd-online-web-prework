@@ -2,9 +2,9 @@
 # Code your solution in calculator.rb
 
 
-"first_number" = 0 
-
 describe "./calculator.rb" do
+  
+  "first_number" = 1 
 
   it "contains a local variable called first_number that is assigned to a number" do
     first_number = get_variable_from_file('./calculator.rb', "first_number")
